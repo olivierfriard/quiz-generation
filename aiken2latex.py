@@ -6,6 +6,11 @@ Formula in Latex format are supported using square brackets (example: [E = mc^2]
 If your system does not have a working Latex installation the PDF can be then generated using the Overleaf service (https://www.overleaf.com) for example.
 
 (c) Olivier Friard 2022
+
+Usage:
+python3 aiken2latez.py FILE.txt > FILE.tex
+
+
 """
 
 TITLE = "Test"
