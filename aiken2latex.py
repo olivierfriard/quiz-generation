@@ -55,6 +55,9 @@ print(HEADER)
 
 for row in rows:
 
+    if not row:
+        continue
+
     flag_answer = False
     for idx, init_answer in enumerate("ABCDEFGHIJKLMNOPQRSTUVWXYZ"):
         if row.startswith(init_answer + ") ") or row.startswith(init_answer + "."):
